@@ -27,6 +27,7 @@
 		5B188219197DC9AC0020D6C1 /* home-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B188216197DC9AC0020D6C1 /* home-26.png */; };
 		5B18821C197DC9B50020D6C1 /* MLFeedbackControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B18821B197DC9B50020D6C1 /* MLFeedbackControllerViewController.m */; };
 		5B18821F197DC9BC0020D6C1 /* MLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B18821E197DC9BC0020D6C1 /* MLHomeViewController.m */; };
+		5B188222197E018F0020D6C1 /* Screen Shot 2014-07-21 at 10.13.59 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B188221197E018F0020D6C1 /* Screen Shot 2014-07-21 at 10.13.59 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		5B18821B197DC9B50020D6C1 /* MLFeedbackControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLFeedbackControllerViewController.m; sourceTree = "<group>"; };
 		5B18821D197DC9BC0020D6C1 /* MLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLHomeViewController.h; sourceTree = "<group>"; };
 		5B18821E197DC9BC0020D6C1 /* MLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLHomeViewController.m; sourceTree = "<group>"; };
+		5B188221197E018F0020D6C1 /* Screen Shot 2014-07-21 at 10.13.59 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-07-21 at 10.13.59 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		5B1881E2197DC9710020D6C1 /* Medallia Survey iOS */ = {
 			isa = PBXGroup;
 			children = (
+				5B188220197E01800020D6C1 /* Screenshots */,
 				5B18821D197DC9BC0020D6C1 /* MLHomeViewController.h */,
 				5B18821E197DC9BC0020D6C1 /* MLHomeViewController.m */,
 				5B18821A197DC9B50020D6C1 /* MLFeedbackControllerViewController.h */,
@@ -172,6 +175,14 @@
 				5B188207197DC9710020D6C1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B188220197E01800020D6C1 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				5B188221197E018F0020D6C1 /* Screen Shot 2014-07-21 at 10.13.59 PM.png */,
+			);
+			name = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 				5B1881F8197DC9710020D6C1 /* Images.xcassets in Resources */,
 				5B188218197DC9AC0020D6C1 /* survey-26.png in Resources */,
 				5B1881F0197DC9710020D6C1 /* Main_iPhone.storyboard in Resources */,
+				5B188222197E018F0020D6C1 /* Screen Shot 2014-07-21 at 10.13.59 PM.png in Resources */,
 				5B1881E7197DC9710020D6C1 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

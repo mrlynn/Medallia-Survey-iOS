@@ -11,5 +11,6 @@
 @interface MLFeedbackControllerViewController : UIViewController <UIWebViewDelegate>
 
 @property (strong, nonatomic) IBOutlet UIWebView *feedbackWebView;
+@property (strong, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 
 @end

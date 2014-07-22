@@ -26,6 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.feedbackWebView.delegate = self;
     // Do any additional setup after loading the view.
     NSString *fullURL = @"http://survey.medallia.com/mobile-demo";
     NSURL *url = [NSURL URLWithString:fullURL];
@@ -40,5 +41,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)webViewDidStartLoad:(UIWebView *)webView {
+    [self.activityIndicator startAnimating];
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView {
+    [self.activityIndicator stopAnimating];
+    self.activityIndicator.hidden = true;
+}
 
 @end
