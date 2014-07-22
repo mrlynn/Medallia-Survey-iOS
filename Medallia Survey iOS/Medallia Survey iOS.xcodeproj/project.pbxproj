@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B1881DD197DC9710020D6C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1881DC197DC9710020D6C1 /* Foundation.framework */; };
+		5B1881DF197DC9710020D6C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1881DE197DC9710020D6C1 /* CoreGraphics.framework */; };
+		5B1881E1197DC9710020D6C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1881E0197DC9710020D6C1 /* UIKit.framework */; };
+		5B1881E7197DC9710020D6C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B1881E5197DC9710020D6C1 /* InfoPlist.strings */; };
+		5B1881E9197DC9710020D6C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1881E8197DC9710020D6C1 /* main.m */; };
+		5B1881ED197DC9710020D6C1 /* MLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1881EC197DC9710020D6C1 /* MLAppDelegate.m */; };
+		5B1881F0197DC9710020D6C1 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B1881EE197DC9710020D6C1 /* Main_iPhone.storyboard */; };
+		5B1881F3197DC9710020D6C1 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B1881F1197DC9710020D6C1 /* Main_iPad.storyboard */; };
+		5B1881F6197DC9710020D6C1 /* MLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1881F5197DC9710020D6C1 /* MLViewController.m */; };
+		5B1881F8197DC9710020D6C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B1881F7197DC9710020D6C1 /* Images.xcassets */; };
+		5B1881FF197DC9710020D6C1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1881FE197DC9710020D6C1 /* XCTest.framework */; };
+		5B188200197DC9710020D6C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1881DC197DC9710020D6C1 /* Foundation.framework */; };
+		5B188201197DC9710020D6C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1881E0197DC9710020D6C1 /* UIKit.framework */; };
+		5B188209197DC9710020D6C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B188207197DC9710020D6C1 /* InfoPlist.strings */; };
+		5B18820B197DC9710020D6C1 /* Medallia_Survey_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B18820A197DC9710020D6C1 /* Medallia_Survey_iOSTests.m */; };
+		5B188217197DC9AC0020D6C1 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B188214197DC9AB0020D6C1 /* iTunesArtwork@2x.png */; };
+		5B188218197DC9AC0020D6C1 /* survey-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B188215197DC9AC0020D6C1 /* survey-26.png */; };
+		5B188219197DC9AC0020D6C1 /* home-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B188216197DC9AC0020D6C1 /* home-26.png */; };
+		5B18821C197DC9B50020D6C1 /* MLFeedbackControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B18821B197DC9B50020D6C1 /* MLFeedbackControllerViewController.m */; };
+		5B18821F197DC9BC0020D6C1 /* MLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B18821E197DC9BC0020D6C1 /* MLHomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B188202197DC9710020D6C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B1881D1197DC9700020D6C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B1881D8197DC9700020D6C1;
+			remoteInfo = "Medallia Survey iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B1881D9197DC9710020D6C1 /* Medallia Survey iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Medallia Survey iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1881DC197DC9710020D6C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B1881DE197DC9710020D6C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B1881E0197DC9710020D6C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B1881E4197DC9710020D6C1 /* Medallia Survey iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Medallia Survey iOS-Info.plist"; sourceTree = "<group>"; };
+		5B1881E6197DC9710020D6C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B1881E8197DC9710020D6C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B1881EA197DC9710020D6C1 /* Medallia Survey iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Medallia Survey iOS-Prefix.pch"; sourceTree = "<group>"; };
+		5B1881EB197DC9710020D6C1 /* MLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLAppDelegate.h; sourceTree = "<group>"; };
+		5B1881EC197DC9710020D6C1 /* MLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLAppDelegate.m; sourceTree = "<group>"; };
+		5B1881EF197DC9710020D6C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		5B1881F2197DC9710020D6C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		5B1881F4197DC9710020D6C1 /* MLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLViewController.h; sourceTree = "<group>"; };
+		5B1881F5197DC9710020D6C1 /* MLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLViewController.m; sourceTree = "<group>"; };
+		5B1881F7197DC9710020D6C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B1881FD197DC9710020D6C1 /* Medallia Survey iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Medallia Survey iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1881FE197DC9710020D6C1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5B188206197DC9710020D6C1 /* Medallia Survey iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Medallia Survey iOSTests-Info.plist"; sourceTree = "<group>"; };
+		5B188208197DC9710020D6C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B18820A197DC9710020D6C1 /* Medallia_Survey_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Medallia_Survey_iOSTests.m; sourceTree = "<group>"; };
+		5B188214197DC9AB0020D6C1 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		5B188215197DC9AC0020D6C1 /* survey-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "survey-26.png"; sourceTree = "<group>"; };
+		5B188216197DC9AC0020D6C1 /* home-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-26.png"; sourceTree = "<group>"; };
+		5B18821A197DC9B50020D6C1 /* MLFeedbackControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLFeedbackControllerViewController.h; sourceTree = "<group>"; };
+		5B18821B197DC9B50020D6C1 /* MLFeedbackControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLFeedbackControllerViewController.m; sourceTree = "<group>"; };
+		5B18821D197DC9BC0020D6C1 /* MLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLHomeViewController.h; sourceTree = "<group>"; };
+		5B18821E197DC9BC0020D6C1 /* MLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLHomeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B1881D6197DC9700020D6C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1881DF197DC9710020D6C1 /* CoreGraphics.framework in Frameworks */,
+				5B1881E1197DC9710020D6C1 /* UIKit.framework in Frameworks */,
+				5B1881DD197DC9710020D6C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1881FA197DC9710020D6C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1881FF197DC9710020D6C1 /* XCTest.framework in Frameworks */,
+				5B188201197DC9710020D6C1 /* UIKit.framework in Frameworks */,
+				5B188200197DC9710020D6C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B1881D0197DC9700020D6C1 = {
+			isa = PBXGroup;
+			children = (
+				5B1881E2197DC9710020D6C1 /* Medallia Survey iOS */,
+				5B188204197DC9710020D6C1 /* Medallia Survey iOSTests */,
+				5B1881DB197DC9710020D6C1 /* Frameworks */,
+				5B1881DA197DC9710020D6C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B1881DA197DC9710020D6C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B1881D9197DC9710020D6C1 /* Medallia Survey iOS.app */,
+				5B1881FD197DC9710020D6C1 /* Medallia Survey iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B1881DB197DC9710020D6C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B1881DC197DC9710020D6C1 /* Foundation.framework */,
+				5B1881DE197DC9710020D6C1 /* CoreGraphics.framework */,
+				5B1881E0197DC9710020D6C1 /* UIKit.framework */,
+				5B1881FE197DC9710020D6C1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B1881E2197DC9710020D6C1 /* Medallia Survey iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5B18821D197DC9BC0020D6C1 /* MLHomeViewController.h */,
+				5B18821E197DC9BC0020D6C1 /* MLHomeViewController.m */,
+				5B18821A197DC9B50020D6C1 /* MLFeedbackControllerViewController.h */,
+				5B18821B197DC9B50020D6C1 /* MLFeedbackControllerViewController.m */,
+				5B188214197DC9AB0020D6C1 /* iTunesArtwork@2x.png */,
+				5B188215197DC9AC0020D6C1 /* survey-26.png */,
+				5B188216197DC9AC0020D6C1 /* home-26.png */,
+				5B1881EB197DC9710020D6C1 /* MLAppDelegate.h */,
+				5B1881EC197DC9710020D6C1 /* MLAppDelegate.m */,
+				5B1881EE197DC9710020D6C1 /* Main_iPhone.storyboard */,
+				5B1881F1197DC9710020D6C1 /* Main_iPad.storyboard */,
+				5B1881F4197DC9710020D6C1 /* MLViewController.h */,
+				5B1881F5197DC9710020D6C1 /* MLViewController.m */,
+				5B1881F7197DC9710020D6C1 /* Images.xcassets */,
+				5B1881E3197DC9710020D6C1 /* Supporting Files */,
+			);
+			path = "Medallia Survey iOS";
+			sourceTree = "<group>";
+		};
+		5B1881E3197DC9710020D6C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B1881E4197DC9710020D6C1 /* Medallia Survey iOS-Info.plist */,
+				5B1881E5197DC9710020D6C1 /* InfoPlist.strings */,
+				5B1881E8197DC9710020D6C1 /* main.m */,
+				5B1881EA197DC9710020D6C1 /* Medallia Survey iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B188204197DC9710020D6C1 /* Medallia Survey iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B18820A197DC9710020D6C1 /* Medallia_Survey_iOSTests.m */,
+				5B188205197DC9710020D6C1 /* Supporting Files */,
+			);
+			path = "Medallia Survey iOSTests";
+			sourceTree = "<group>";
+		};
+		5B188205197DC9710020D6C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B188206197DC9710020D6C1 /* Medallia Survey iOSTests-Info.plist */,
+				5B188207197DC9710020D6C1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B1881D8197DC9700020D6C1 /* Medallia Survey iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B18820E197DC9710020D6C1 /* Build configuration list for PBXNativeTarget "Medallia Survey iOS" */;
+			buildPhases = (
+				5B1881D5197DC9700020D6C1 /* Sources */,
+				5B1881D6197DC9700020D6C1 /* Frameworks */,
+				5B1881D7197DC9700020D6C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Medallia Survey iOS";
+			productName = "Medallia Survey iOS";
+			productReference = 5B1881D9197DC9710020D6C1 /* Medallia Survey iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B1881FC197DC9710020D6C1 /* Medallia Survey iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B188211197DC9710020D6C1 /* Build configuration list for PBXNativeTarget "Medallia Survey iOSTests" */;
+			buildPhases = (
+				5B1881F9197DC9710020D6C1 /* Sources */,
+				5B1881FA197DC9710020D6C1 /* Frameworks */,
+				5B1881FB197DC9710020D6C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B188203197DC9710020D6C1 /* PBXTargetDependency */,
+			);
+			name = "Medallia Survey iOSTests";
+			productName = "Medallia Survey iOSTests";
+			productReference = 5B1881FD197DC9710020D6C1 /* Medallia Survey iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B1881D1197DC9700020D6C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ML;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Michael Lynn";
+				TargetAttributes = {
+					5B1881FC197DC9710020D6C1 = {
+						TestTargetID = 5B1881D8197DC9700020D6C1;
+					};
+				};
+			};
+			buildConfigurationList = 5B1881D4197DC9700020D6C1 /* Build configuration list for PBXProject "Medallia Survey iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B1881D0197DC9700020D6C1;
+			productRefGroup = 5B1881DA197DC9710020D6C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B1881D8197DC9700020D6C1 /* Medallia Survey iOS */,
+				5B1881FC197DC9710020D6C1 /* Medallia Survey iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B1881D7197DC9700020D6C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1881F3197DC9710020D6C1 /* Main_iPad.storyboard in Resources */,
+				5B188219197DC9AC0020D6C1 /* home-26.png in Resources */,
+				5B188217197DC9AC0020D6C1 /* iTunesArtwork@2x.png in Resources */,
+				5B1881F8197DC9710020D6C1 /* Images.xcassets in Resources */,
+				5B188218197DC9AC0020D6C1 /* survey-26.png in Resources */,
+				5B1881F0197DC9710020D6C1 /* Main_iPhone.storyboard in Resources */,
+				5B1881E7197DC9710020D6C1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1881FB197DC9710020D6C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B188209197DC9710020D6C1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B1881D5197DC9700020D6C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B18821C197DC9B50020D6C1 /* MLFeedbackControllerViewController.m in Sources */,
+				5B18821F197DC9BC0020D6C1 /* MLHomeViewController.m in Sources */,
+				5B1881E9197DC9710020D6C1 /* main.m in Sources */,
+				5B1881F6197DC9710020D6C1 /* MLViewController.m in Sources */,
+				5B1881ED197DC9710020D6C1 /* MLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1881F9197DC9710020D6C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B18820B197DC9710020D6C1 /* Medallia_Survey_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B188203197DC9710020D6C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B1881D8197DC9700020D6C1 /* Medallia Survey iOS */;
+			targetProxy = 5B188202197DC9710020D6C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B1881E5197DC9710020D6C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B1881E6197DC9710020D6C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B1881EE197DC9710020D6C1 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B1881EF197DC9710020D6C1 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5B1881F1197DC9710020D6C1 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B1881F2197DC9710020D6C1 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		5B188207197DC9710020D6C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B188208197DC9710020D6C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B18820C197DC9710020D6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B18820D197DC9710020D6C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B18820F197DC9710020D6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Medallia Survey iOS/Medallia Survey iOS-Prefix.pch";
+				INFOPLIST_FILE = "Medallia Survey iOS/Medallia Survey iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B188210197DC9710020D6C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Medallia Survey iOS/Medallia Survey iOS-Prefix.pch";
+				INFOPLIST_FILE = "Medallia Survey iOS/Medallia Survey iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5B188212197DC9710020D6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Medallia Survey iOS.app/Medallia Survey iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Medallia Survey iOS/Medallia Survey iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Medallia Survey iOSTests/Medallia Survey iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5B188213197DC9710020D6C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Medallia Survey iOS.app/Medallia Survey iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Medallia Survey iOS/Medallia Survey iOS-Prefix.pch";
+				INFOPLIST_FILE = "Medallia Survey iOSTests/Medallia Survey iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B1881D4197DC9700020D6C1 /* Build configuration list for PBXProject "Medallia Survey iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B18820C197DC9710020D6C1 /* Debug */,
+				5B18820D197DC9710020D6C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B18820E197DC9710020D6C1 /* Build configuration list for PBXNativeTarget "Medallia Survey iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B18820F197DC9710020D6C1 /* Debug */,
+				5B188210197DC9710020D6C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B188211197DC9710020D6C1 /* Build configuration list for PBXNativeTarget "Medallia Survey iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B188212197DC9710020D6C1 /* Debug */,
+				5B188213197DC9710020D6C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B1881D1197DC9700020D6C1 /* Project object */;
+}
