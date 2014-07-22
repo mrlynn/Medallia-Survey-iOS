@@ -23,15 +23,21 @@
     return self;
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    // ensure that the web view delegate is set
+    self.feedbackWebView.delegate = self;
+    
+    // change the following url to your Medallia Feedless Survey URL
+    NSURL *url = [NSURL URLWithString:@"http://survey.medallia.com/mobile-demo"];
+    
+    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+    [_feedbackWebView loadRequest:requestObj];
+
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.feedbackWebView.delegate = self;
-    // Do any additional setup after loading the view.
-    NSString *fullURL = @"http://survey.medallia.com/mobile-demo";
-    NSURL *url = [NSURL URLWithString:fullURL];
-    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-    [_feedbackWebView loadRequest:requestObj];
 
 }
 
@@ -47,7 +53,6 @@
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
     [self.activityIndicator stopAnimating];
-    self.activityIndicator.hidden = true;
 }
 
 @end
