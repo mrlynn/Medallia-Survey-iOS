@@ -28,8 +28,15 @@
     self.feedbackWebView.delegate = self;
     
     // change the following url to your Medallia Feedless Survey URL
-    NSURL *url = [NSURL URLWithString:@"http://survey.medallia.com/mobile-demo"];
-    
+    NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+    NSString *surveyURL = [defaults stringForKey:@"surveyURL"];
+    if (!surveyURL) {
+        surveyURL = @"http://survey.medallia.com/mobile-demo";
+        [defaults setObject:surveyURL forKey:@"surveyURL"];
+        [defaults synchronize];
+    }
+ 
+    NSURL *url = [NSURL URLWithString:surveyURL];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
     [_feedbackWebView loadRequest:requestObj];
 

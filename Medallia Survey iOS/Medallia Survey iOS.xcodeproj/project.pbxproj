@@ -28,11 +28,28 @@
 		5B18821C197DC9B50020D6C1 /* MLFeedbackControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B18821B197DC9B50020D6C1 /* MLFeedbackControllerViewController.m */; };
 		5B18821F197DC9BC0020D6C1 /* MLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B18821E197DC9BC0020D6C1 /* MLHomeViewController.m */; };
 		5B188222197E018F0020D6C1 /* Screen Shot 2014-07-21 at 10.13.59 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B188221197E018F0020D6C1 /* Screen Shot 2014-07-21 at 10.13.59 PM.png */; };
+		5B1CAD5A1981187D00DD9E14 /* MLHelpPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CAD591981187D00DD9E14 /* MLHelpPageViewController.m */; };
+		5B1CAD5D198119E100DD9E14 /* MLHelpPageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CAD5C198119E100DD9E14 /* MLHelpPageContentViewController.m */; };
+		5B1CAD6019811E7300DD9E14 /* MLHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CAD5F19811E7300DD9E14 /* MLHelpViewController.m */; };
+		5B1CAD6819811F5400DD9E14 /* step1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CAD6119811F5400DD9E14 /* step1.png */; };
+		5B1CAD6919811F5400DD9E14 /* step2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CAD6219811F5400DD9E14 /* step2.png */; };
+		5B1CAD6A19811F5400DD9E14 /* step3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CAD6319811F5400DD9E14 /* step3.png */; };
+		5B1CAD6B19811F5400DD9E14 /* step4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CAD6419811F5400DD9E14 /* step4.png */; };
+		5B1CAD6C19811F5400DD9E14 /* step5.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CAD6519811F5400DD9E14 /* step5.png */; };
+		5B1CAD6D19811F5400DD9E14 /* step6.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CAD6619811F5400DD9E14 /* step6.png */; };
+		5B1CAD6E19811F5400DD9E14 /* step7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CAD6719811F5400DD9E14 /* step7.png */; };
+		5B1CAD761981563600DD9E14 /* step8.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CAD731981563600DD9E14 /* step8.png */; };
+		5B1CAD771981563600DD9E14 /* step9.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CAD741981563600DD9E14 /* step9.png */; };
+		5B1CAD781981563600DD9E14 /* step10.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CAD751981563600DD9E14 /* step10.png */; };
+		5B1CAD7F19826EC400DD9E14 /* administrative_tools-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CAD7E19826EC400DD9E14 /* administrative_tools-25.png */; };
+		5BB3631D19831A5E00B015D6 /* step11.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3631C19831A5E00B015D6 /* step11.png */; };
 		5BD98CBB197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 9.27.18 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD98CB7197E9E4300727326 /* iOS Simulator Screen Shot Jul 22, 2014, 9.27.18 AM.png */; };
 		5BD98CBC197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.44 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD98CB8197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.44 AM.png */; };
 		5BD98CBD197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.40 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD98CB9197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.40 AM.png */; };
 		5BD98CBE197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.33 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD98CBA197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.33 AM.png */; };
 		5BD98CC0197EA59200727326 /* Screens.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD98CBF197EA59200727326 /* Screens.png */; };
+		5BD98CF6197EFC2D00727326 /* MLSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD98CF5197EFC2D00727326 /* MLSettingsViewController.m */; };
+		5BD98CF8197F0B1700727326 /* help-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD98CF7197F0B1600727326 /* help-25.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,11 +91,32 @@
 		5B18821D197DC9BC0020D6C1 /* MLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLHomeViewController.h; sourceTree = "<group>"; };
 		5B18821E197DC9BC0020D6C1 /* MLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLHomeViewController.m; sourceTree = "<group>"; };
 		5B188221197E018F0020D6C1 /* Screen Shot 2014-07-21 at 10.13.59 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-07-21 at 10.13.59 PM.png"; sourceTree = "<group>"; };
+		5B1CAD581981187D00DD9E14 /* MLHelpPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLHelpPageViewController.h; sourceTree = "<group>"; };
+		5B1CAD591981187D00DD9E14 /* MLHelpPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLHelpPageViewController.m; sourceTree = "<group>"; };
+		5B1CAD5B198119E100DD9E14 /* MLHelpPageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLHelpPageContentViewController.h; sourceTree = "<group>"; };
+		5B1CAD5C198119E100DD9E14 /* MLHelpPageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLHelpPageContentViewController.m; sourceTree = "<group>"; };
+		5B1CAD5E19811E7300DD9E14 /* MLHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLHelpViewController.h; sourceTree = "<group>"; };
+		5B1CAD5F19811E7300DD9E14 /* MLHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLHelpViewController.m; sourceTree = "<group>"; };
+		5B1CAD6119811F5400DD9E14 /* step1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step1.png; sourceTree = "<group>"; };
+		5B1CAD6219811F5400DD9E14 /* step2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step2.png; sourceTree = "<group>"; };
+		5B1CAD6319811F5400DD9E14 /* step3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step3.png; sourceTree = "<group>"; };
+		5B1CAD6419811F5400DD9E14 /* step4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step4.png; sourceTree = "<group>"; };
+		5B1CAD6519811F5400DD9E14 /* step5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step5.png; sourceTree = "<group>"; };
+		5B1CAD6619811F5400DD9E14 /* step6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step6.png; sourceTree = "<group>"; };
+		5B1CAD6719811F5400DD9E14 /* step7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step7.png; sourceTree = "<group>"; };
+		5B1CAD731981563600DD9E14 /* step8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step8.png; sourceTree = "<group>"; };
+		5B1CAD741981563600DD9E14 /* step9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step9.png; sourceTree = "<group>"; };
+		5B1CAD751981563600DD9E14 /* step10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step10.png; sourceTree = "<group>"; };
+		5B1CAD7E19826EC400DD9E14 /* administrative_tools-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "administrative_tools-25.png"; sourceTree = "<group>"; };
+		5BB3631C19831A5E00B015D6 /* step11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step11.png; sourceTree = "<group>"; };
 		5BD98CB7197E9E4300727326 /* iOS Simulator Screen Shot Jul 22, 2014, 9.27.18 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen Shot Jul 22, 2014, 9.27.18 AM.png"; sourceTree = "<group>"; };
 		5BD98CB8197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.44 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen Shot Jul 22, 2014, 8.48.44 AM.png"; sourceTree = "<group>"; };
 		5BD98CB9197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.40 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen Shot Jul 22, 2014, 8.48.40 AM.png"; sourceTree = "<group>"; };
 		5BD98CBA197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.33 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen Shot Jul 22, 2014, 8.48.33 AM.png"; sourceTree = "<group>"; };
 		5BD98CBF197EA59200727326 /* Screens.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screens.png; sourceTree = "<group>"; };
+		5BD98CF4197EFC2D00727326 /* MLSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSettingsViewController.h; sourceTree = "<group>"; };
+		5BD98CF5197EFC2D00727326 /* MLSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSettingsViewController.m; sourceTree = "<group>"; };
+		5BD98CF7197F0B1600727326 /* help-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "help-25.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +187,14 @@
 				5B1881EB197DC9710020D6C1 /* MLAppDelegate.h */,
 				5B1881EC197DC9710020D6C1 /* MLAppDelegate.m */,
 				5B1881EE197DC9710020D6C1 /* Main_iPhone.storyboard */,
+				5B1CAD5E19811E7300DD9E14 /* MLHelpViewController.h */,
+				5B1CAD5F19811E7300DD9E14 /* MLHelpViewController.m */,
+				5B1CAD5B198119E100DD9E14 /* MLHelpPageContentViewController.h */,
+				5B1CAD5C198119E100DD9E14 /* MLHelpPageContentViewController.m */,
+				5B1CAD581981187D00DD9E14 /* MLHelpPageViewController.h */,
+				5B1CAD591981187D00DD9E14 /* MLHelpPageViewController.m */,
+				5BD98CF4197EFC2D00727326 /* MLSettingsViewController.h */,
+				5BD98CF5197EFC2D00727326 /* MLSettingsViewController.m */,
 				5B1881F1197DC9710020D6C1 /* Main_iPad.storyboard */,
 				5B1881F4197DC9710020D6C1 /* MLViewController.h */,
 				5B1881F5197DC9710020D6C1 /* MLViewController.m */,
@@ -190,6 +236,19 @@
 		5B188220197E01800020D6C1 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
+				5BB3631C19831A5E00B015D6 /* step11.png */,
+				5B1CAD7E19826EC400DD9E14 /* administrative_tools-25.png */,
+				5B1CAD731981563600DD9E14 /* step8.png */,
+				5B1CAD741981563600DD9E14 /* step9.png */,
+				5B1CAD751981563600DD9E14 /* step10.png */,
+				5B1CAD6119811F5400DD9E14 /* step1.png */,
+				5B1CAD6219811F5400DD9E14 /* step2.png */,
+				5B1CAD6319811F5400DD9E14 /* step3.png */,
+				5B1CAD6419811F5400DD9E14 /* step4.png */,
+				5B1CAD6519811F5400DD9E14 /* step5.png */,
+				5B1CAD6619811F5400DD9E14 /* step6.png */,
+				5B1CAD6719811F5400DD9E14 /* step7.png */,
+				5BD98CF7197F0B1600727326 /* help-25.png */,
 				5BD98CBF197EA59200727326 /* Screens.png */,
 				5BD98CB7197E9E4300727326 /* iOS Simulator Screen Shot Jul 22, 2014, 9.27.18 AM.png */,
 				5BD98CB8197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.44 AM.png */,
@@ -277,19 +336,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BD98CF8197F0B1700727326 /* help-25.png in Resources */,
+				5B1CAD771981563600DD9E14 /* step9.png in Resources */,
+				5B1CAD6A19811F5400DD9E14 /* step3.png in Resources */,
+				5BB3631D19831A5E00B015D6 /* step11.png in Resources */,
 				5B1881F3197DC9710020D6C1 /* Main_iPad.storyboard in Resources */,
 				5BD98CBB197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 9.27.18 AM.png in Resources */,
 				5BD98CBD197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.40 AM.png in Resources */,
 				5BD98CBC197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.44 AM.png in Resources */,
+				5B1CAD6B19811F5400DD9E14 /* step4.png in Resources */,
+				5B1CAD6D19811F5400DD9E14 /* step6.png in Resources */,
 				5BD98CBE197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.33 AM.png in Resources */,
 				5B188219197DC9AC0020D6C1 /* home-26.png in Resources */,
+				5B1CAD761981563600DD9E14 /* step8.png in Resources */,
 				5B188217197DC9AC0020D6C1 /* iTunesArtwork@2x.png in Resources */,
+				5B1CAD6919811F5400DD9E14 /* step2.png in Resources */,
+				5B1CAD6E19811F5400DD9E14 /* step7.png in Resources */,
+				5B1CAD6819811F5400DD9E14 /* step1.png in Resources */,
+				5B1CAD6C19811F5400DD9E14 /* step5.png in Resources */,
 				5B1881F8197DC9710020D6C1 /* Images.xcassets in Resources */,
+				5B1CAD781981563600DD9E14 /* step10.png in Resources */,
 				5B188218197DC9AC0020D6C1 /* survey-26.png in Resources */,
 				5BD98CC0197EA59200727326 /* Screens.png in Resources */,
 				5B1881F0197DC9710020D6C1 /* Main_iPhone.storyboard in Resources */,
 				5B188222197E018F0020D6C1 /* Screen Shot 2014-07-21 at 10.13.59 PM.png in Resources */,
 				5B1881E7197DC9710020D6C1 /* InfoPlist.strings in Resources */,
+				5B1CAD7F19826EC400DD9E14 /* administrative_tools-25.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,11 +380,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B1CAD5A1981187D00DD9E14 /* MLHelpPageViewController.m in Sources */,
 				5B18821C197DC9B50020D6C1 /* MLFeedbackControllerViewController.m in Sources */,
+				5B1CAD6019811E7300DD9E14 /* MLHelpViewController.m in Sources */,
 				5B18821F197DC9BC0020D6C1 /* MLHomeViewController.m in Sources */,
+				5BD98CF6197EFC2D00727326 /* MLSettingsViewController.m in Sources */,
 				5B1881E9197DC9710020D6C1 /* main.m in Sources */,
 				5B1881F6197DC9710020D6C1 /* MLViewController.m in Sources */,
 				5B1881ED197DC9710020D6C1 /* MLAppDelegate.m in Sources */,
+				5B1CAD5D198119E100DD9E14 /* MLHelpPageContentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

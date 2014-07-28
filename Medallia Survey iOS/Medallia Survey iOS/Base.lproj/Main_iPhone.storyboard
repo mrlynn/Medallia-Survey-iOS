@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.11" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <deployment defaultVersion="1808" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6190.4"/>
     </dependencies>
     <scenes>
@@ -62,7 +61,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZu-xW-QhY">
-                                <rect key="frame" x="75" y="250" width="171" height="30"/>
+                                <rect key="frame" x="75" y="307" width="171" height="30"/>
                                 <state key="normal" title="Logout / Restart">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -70,9 +69,15 @@
                                     <segue destination="vXZ-lx-hvc" kind="modal" id="QUa-S6-NHy"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="jDR-yr-W4Q">
+                                <rect key="frame" x="20" y="31" width="280" height="129"/>
+                                <string key="text">This is an example app leveraging an embedded Medallia Survey.  Tap below to view the Feedback Survey.  For more information, tap the help icon below.</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pnv-Fc-s7Y">
-                                <rect key="frame" x="75" y="288" width="171" height="30"/>
-                                <state key="normal" title="View Feedback Form">
+                                <rect key="frame" x="68" y="269" width="184" height="30"/>
+                                <state key="normal" title="View Feedback Survey">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -101,11 +106,141 @@
                     <connections>
                         <segue destination="5Sk-Di-wEv" kind="relationship" relationship="viewControllers" id="vU8-lk-sQ6"/>
                         <segue destination="Ske-J4-ddk" kind="relationship" relationship="viewControllers" id="0hU-7w-eye"/>
+                        <segue destination="NqH-cH-HL6" kind="relationship" relationship="viewControllers" id="hq1-1W-ILg"/>
+                        <segue destination="cgy-Of-8g9" kind="relationship" relationship="viewControllers" id="gfk-Rn-Ox9"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bg2-lN-jbu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="601" y="138"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="XAl-6p-J3q">
+            <objects>
+                <viewController id="NqH-cH-HL6" customClass="MLSettingsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Tgl-w9-Oa9"/>
+                        <viewControllerLayoutGuide type="bottom" id="ITO-pn-RNf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xeD-ah-thy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Medallia Survey URL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WXc-bp-qC7">
+                                <rect key="frame" x="80" y="147" width="160" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="http://survey.medallia.com/mobile-demo" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="LZT-bN-fgb">
+                                <rect key="frame" x="20" y="176" width="280" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="URL" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <action selector="checkURL:" destination="NqH-cH-HL6" eventType="editingChanged" id="57x-MJ-6YQ"/>
+                                    <action selector="surveyURLChanged:" destination="NqH-cH-HL6" eventType="editingChanged" id="I48-sJ-L5Q"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Must be a valid URL and must contain medallia" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBw-Jb-sOn">
+                                <rect key="frame" x="20" y="218" width="280" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lSz-Rw-azh">
+                                <rect key="frame" x="98" y="247" width="125" height="30"/>
+                                <state key="normal" title="Save and View">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveAndView:" destination="NqH-cH-HL6" eventType="touchUpInside" id="7d2-bb-tuS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="administrative_tools-25.png" id="ZCJ-fU-mZv"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="surveyURL" destination="LZT-bN-fgb" id="2DH-eI-cDm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nsb-Dy-iFZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="601" y="973"/>
+        </scene>
+        <!--Help Page View Controller-->
+        <scene sceneID="NwM-d9-l7n">
+            <objects>
+                <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="ZnS-Qa-h3a" customClass="MLHelpPageViewController" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JDK-Nc-ADC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1495" y="1789"/>
+        </scene>
+        <!--Help Page Content View Controller-->
+        <scene sceneID="0M4-F7-gBK">
+            <objects>
+                <viewController storyboardIdentifier="PageContentViewController" id="sfc-jD-97X" customClass="MLHelpPageContentViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FSY-4P-nU7"/>
+                        <viewControllerLayoutGuide type="bottom" id="ppW-t0-W6Q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="p9g-rl-Fo4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kSh-3g-RKx">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kea-5H-cWY">
+                                <rect key="frame" x="20" y="35" width="280" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="E9D-pi-lmN"/>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="kSh-3g-RKx" id="cld-ZO-9k1"/>
+                        <outlet property="titleLabel" destination="kea-5H-cWY" id="N7w-aC-jBG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1TN-Vd-88K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1484" y="1096"/>
+        </scene>
+        <!--Help-->
+        <scene sceneID="t7l-QH-kIq">
+            <objects>
+                <viewController storyboardIdentifier="HelpPageContentViewController" id="cgy-Of-8g9" customClass="MLHelpViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1mB-xi-VKr"/>
+                        <viewControllerLayoutGuide type="bottom" id="52f-3y-Sur"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Fp4-ly-XWR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qsy-Xb-FCm">
+                                <rect key="frame" x="75" y="152" width="171" height="30"/>
+                                <state key="normal" title="XCode Walkthrough">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startWalkthrough:" destination="cgy-Of-8g9" eventType="touchUpInside" id="He2-K7-sTu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Help" image="help-25.png" id="IhZ-sR-vhA"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NoR-gO-zkQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1062" y="1096"/>
         </scene>
         <!--Feedback-->
         <scene sceneID="ZfN-Xx-k5c">
@@ -141,6 +276,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="administrative_tools-25.png" width="25" height="25"/>
+        <image name="help-25.png" width="25" height="25"/>
         <image name="home-26.png" width="26" height="26"/>
         <image name="iTunesArtwork.png" width="512" height="512"/>
         <image name="survey-26.png" width="26" height="26"/>

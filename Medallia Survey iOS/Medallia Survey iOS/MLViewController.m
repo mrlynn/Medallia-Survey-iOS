@@ -17,7 +17,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    static NSString* const hasRunAppOnceKey = @"hasRunAppOnceKey";
+    NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+    if ([defaults boolForKey:hasRunAppOnceKey] == NO)
+    {
+        NSString *surveyURL = [defaults stringForKey:@"surveyURL"];
+        if (!surveyURL) {
+            surveyURL = @"http://survey.medallia.com/mobile-demo";
+            [defaults setObject:surveyURL forKey:@"surveyURL"];
+            [defaults synchronize];
+        }
+        [defaults setBool:YES forKey:hasRunAppOnceKey];
+    }
+
 }
 
 - (void)didReceiveMemoryWarning
