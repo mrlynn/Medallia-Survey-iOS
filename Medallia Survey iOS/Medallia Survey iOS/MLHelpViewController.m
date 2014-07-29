@@ -17,8 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Create the data model
-    _pageTitles = @[@"Over 200 Tips and Tricks", @"Discover Hidden Features", @"Bookmark Favorite Tip", @"Free Regular Update",@"Step 5",@"Step 6",@"Step 7",@"Step 8",@"Step 9",@"Step 10"];
-    _pageImages = @[@"step1.png", @"step2.png", @"step3.png", @"step4.png", @"step5.png", @"step6.png", @"step7.png", @"step8.png", @"step9.png", @"step10.png"];
+    _pageTitles = @[@"Over 200 Tips and Tricks", @"Discover Hidden Features", @"Bookmark Favorite Tip", @"Free Regular Update",@"Step 5",@"Step 6",@"Step 7",@"Step 8",@"Step 9",@"Step 10",@"Step 11",@"Step 12",@"Step 13"];
+    _pageImages = @[@"step1.png", @"step2.png", @"step3.png", @"step4.png", @"step5.png", @"step6.png", @"step7.png", @"step8.png", @"step9.png", @"step10.png", @"step11.png", @"step12a.png", @"step13a.png"];
     
     // Create page view controller
     self.pageViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"PageViewController"];

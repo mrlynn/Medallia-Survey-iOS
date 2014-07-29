@@ -43,6 +43,8 @@
 		5B1CAD781981563600DD9E14 /* step10.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CAD751981563600DD9E14 /* step10.png */; };
 		5B1CAD7F19826EC400DD9E14 /* administrative_tools-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CAD7E19826EC400DD9E14 /* administrative_tools-25.png */; };
 		5BB3631D19831A5E00B015D6 /* step11.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3631C19831A5E00B015D6 /* step11.png */; };
+		5BCA61FA1987F4570084F4D2 /* step12a.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCA61F81987F4570084F4D2 /* step12a.png */; };
+		5BCA61FB1987F4570084F4D2 /* step13a.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCA61F91987F4570084F4D2 /* step13a.png */; };
 		5BD98CBB197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 9.27.18 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD98CB7197E9E4300727326 /* iOS Simulator Screen Shot Jul 22, 2014, 9.27.18 AM.png */; };
 		5BD98CBC197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.44 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD98CB8197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.44 AM.png */; };
 		5BD98CBD197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.40 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD98CB9197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.40 AM.png */; };
@@ -109,6 +111,8 @@
 		5B1CAD751981563600DD9E14 /* step10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step10.png; sourceTree = "<group>"; };
 		5B1CAD7E19826EC400DD9E14 /* administrative_tools-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "administrative_tools-25.png"; sourceTree = "<group>"; };
 		5BB3631C19831A5E00B015D6 /* step11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step11.png; sourceTree = "<group>"; };
+		5BCA61F81987F4570084F4D2 /* step12a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step12a.png; sourceTree = "<group>"; };
+		5BCA61F91987F4570084F4D2 /* step13a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step13a.png; sourceTree = "<group>"; };
 		5BD98CB7197E9E4300727326 /* iOS Simulator Screen Shot Jul 22, 2014, 9.27.18 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen Shot Jul 22, 2014, 9.27.18 AM.png"; sourceTree = "<group>"; };
 		5BD98CB8197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.44 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen Shot Jul 22, 2014, 8.48.44 AM.png"; sourceTree = "<group>"; };
 		5BD98CB9197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.40 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen Shot Jul 22, 2014, 8.48.40 AM.png"; sourceTree = "<group>"; };
@@ -176,6 +180,7 @@
 		5B1881E2197DC9710020D6C1 /* Medallia Survey iOS */ = {
 			isa = PBXGroup;
 			children = (
+				5BCA61F71987F4020084F4D2 /* Help */,
 				5B188220197E01800020D6C1 /* Screenshots */,
 				5B18821D197DC9BC0020D6C1 /* MLHomeViewController.h */,
 				5B18821E197DC9BC0020D6C1 /* MLHomeViewController.m */,
@@ -236,8 +241,24 @@
 		5B188220197E01800020D6C1 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				5BB3631C19831A5E00B015D6 /* step11.png */,
 				5B1CAD7E19826EC400DD9E14 /* administrative_tools-25.png */,
+				5BD98CF7197F0B1600727326 /* help-25.png */,
+				5BD98CBF197EA59200727326 /* Screens.png */,
+				5BD98CB7197E9E4300727326 /* iOS Simulator Screen Shot Jul 22, 2014, 9.27.18 AM.png */,
+				5BD98CB8197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.44 AM.png */,
+				5BD98CB9197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.40 AM.png */,
+				5BD98CBA197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.33 AM.png */,
+				5B188221197E018F0020D6C1 /* Screen Shot 2014-07-21 at 10.13.59 PM.png */,
+			);
+			name = Screenshots;
+			sourceTree = "<group>";
+		};
+		5BCA61F71987F4020084F4D2 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				5BCA61F81987F4570084F4D2 /* step12a.png */,
+				5BCA61F91987F4570084F4D2 /* step13a.png */,
+				5BB3631C19831A5E00B015D6 /* step11.png */,
 				5B1CAD731981563600DD9E14 /* step8.png */,
 				5B1CAD741981563600DD9E14 /* step9.png */,
 				5B1CAD751981563600DD9E14 /* step10.png */,
@@ -248,15 +269,8 @@
 				5B1CAD6519811F5400DD9E14 /* step5.png */,
 				5B1CAD6619811F5400DD9E14 /* step6.png */,
 				5B1CAD6719811F5400DD9E14 /* step7.png */,
-				5BD98CF7197F0B1600727326 /* help-25.png */,
-				5BD98CBF197EA59200727326 /* Screens.png */,
-				5BD98CB7197E9E4300727326 /* iOS Simulator Screen Shot Jul 22, 2014, 9.27.18 AM.png */,
-				5BD98CB8197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.44 AM.png */,
-				5BD98CB9197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.40 AM.png */,
-				5BD98CBA197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.33 AM.png */,
-				5B188221197E018F0020D6C1 /* Screen Shot 2014-07-21 at 10.13.59 PM.png */,
 			);
-			name = Screenshots;
+			name = Help;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,6 +353,7 @@
 				5BD98CF8197F0B1700727326 /* help-25.png in Resources */,
 				5B1CAD771981563600DD9E14 /* step9.png in Resources */,
 				5B1CAD6A19811F5400DD9E14 /* step3.png in Resources */,
+				5BCA61FB1987F4570084F4D2 /* step13a.png in Resources */,
 				5BB3631D19831A5E00B015D6 /* step11.png in Resources */,
 				5B1881F3197DC9710020D6C1 /* Main_iPad.storyboard in Resources */,
 				5BD98CBB197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 9.27.18 AM.png in Resources */,
@@ -356,6 +371,7 @@
 				5B1CAD6C19811F5400DD9E14 /* step5.png in Resources */,
 				5B1881F8197DC9710020D6C1 /* Images.xcassets in Resources */,
 				5B1CAD781981563600DD9E14 /* step10.png in Resources */,
+				5BCA61FA1987F4570084F4D2 /* step12a.png in Resources */,
 				5B188218197DC9AC0020D6C1 /* survey-26.png in Resources */,
 				5BD98CC0197EA59200727326 /* Screens.png in Resources */,
 				5B1881F0197DC9710020D6C1 /* Main_iPhone.storyboard in Resources */,
