@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B06971319B0B6480018009F /* propertylocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B06971219B0B6480018009F /* propertylocations.plist */; };
+		5B06971519B0DDE40018009F /* store_locations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B06971419B0DDE40018009F /* store_locations.plist */; };
 		5B1881DD197DC9710020D6C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1881DC197DC9710020D6C1 /* Foundation.framework */; };
 		5B1881DF197DC9710020D6C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1881DE197DC9710020D6C1 /* CoreGraphics.framework */; };
 		5B1881E1197DC9710020D6C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1881E0197DC9710020D6C1 /* UIKit.framework */; };
@@ -45,6 +47,7 @@
 		5BB3631D19831A5E00B015D6 /* step11.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3631C19831A5E00B015D6 /* step11.png */; };
 		5BCA61FA1987F4570084F4D2 /* step12a.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCA61F81987F4570084F4D2 /* step12a.png */; };
 		5BCA61FB1987F4570084F4D2 /* step13a.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCA61F91987F4570084F4D2 /* step13a.png */; };
+		5BD60DEA19AD440700DAE458 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD60DE919AD440700DAE458 /* CoreLocation.framework */; };
 		5BD98CBB197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 9.27.18 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD98CB7197E9E4300727326 /* iOS Simulator Screen Shot Jul 22, 2014, 9.27.18 AM.png */; };
 		5BD98CBC197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.44 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD98CB8197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.44 AM.png */; };
 		5BD98CBD197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.40 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD98CB9197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.40 AM.png */; };
@@ -65,6 +68,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B06971219B0B6480018009F /* propertylocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = propertylocations.plist; sourceTree = "<group>"; };
+		5B06971419B0DDE40018009F /* store_locations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = store_locations.plist; sourceTree = "<group>"; };
 		5B1881D9197DC9710020D6C1 /* Medallia Survey iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Medallia Survey iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B1881DC197DC9710020D6C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B1881DE197DC9710020D6C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -113,6 +118,7 @@
 		5BB3631C19831A5E00B015D6 /* step11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step11.png; sourceTree = "<group>"; };
 		5BCA61F81987F4570084F4D2 /* step12a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step12a.png; sourceTree = "<group>"; };
 		5BCA61F91987F4570084F4D2 /* step13a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step13a.png; sourceTree = "<group>"; };
+		5BD60DE919AD440700DAE458 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		5BD98CB7197E9E4300727326 /* iOS Simulator Screen Shot Jul 22, 2014, 9.27.18 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen Shot Jul 22, 2014, 9.27.18 AM.png"; sourceTree = "<group>"; };
 		5BD98CB8197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.44 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen Shot Jul 22, 2014, 8.48.44 AM.png"; sourceTree = "<group>"; };
 		5BD98CB9197E9E4400727326 /* iOS Simulator Screen Shot Jul 22, 2014, 8.48.40 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen Shot Jul 22, 2014, 8.48.40 AM.png"; sourceTree = "<group>"; };
@@ -128,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BD60DEA19AD440700DAE458 /* CoreLocation.framework in Frameworks */,
 				5B1881DF197DC9710020D6C1 /* CoreGraphics.framework in Frameworks */,
 				5B1881E1197DC9710020D6C1 /* UIKit.framework in Frameworks */,
 				5B1881DD197DC9710020D6C1 /* Foundation.framework in Frameworks */,
@@ -169,6 +176,7 @@
 		5B1881DB197DC9710020D6C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5BD60DE919AD440700DAE458 /* CoreLocation.framework */,
 				5B1881DC197DC9710020D6C1 /* Foundation.framework */,
 				5B1881DE197DC9710020D6C1 /* CoreGraphics.framework */,
 				5B1881E0197DC9710020D6C1 /* UIKit.framework */,
@@ -212,10 +220,12 @@
 		5B1881E3197DC9710020D6C1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5B06971419B0DDE40018009F /* store_locations.plist */,
 				5B1881E4197DC9710020D6C1 /* Medallia Survey iOS-Info.plist */,
 				5B1881E5197DC9710020D6C1 /* InfoPlist.strings */,
 				5B1881E8197DC9710020D6C1 /* main.m */,
 				5B1881EA197DC9710020D6C1 /* Medallia Survey iOS-Prefix.pch */,
+				5B06971219B0B6480018009F /* propertylocations.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -351,6 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BD98CF8197F0B1700727326 /* help-25.png in Resources */,
+				5B06971519B0DDE40018009F /* store_locations.plist in Resources */,
 				5B1CAD771981563600DD9E14 /* step9.png in Resources */,
 				5B1CAD6A19811F5400DD9E14 /* step3.png in Resources */,
 				5BCA61FB1987F4570084F4D2 /* step13a.png in Resources */,
@@ -365,6 +376,7 @@
 				5B188219197DC9AC0020D6C1 /* home-26.png in Resources */,
 				5B1CAD761981563600DD9E14 /* step8.png in Resources */,
 				5B188217197DC9AC0020D6C1 /* iTunesArtwork@2x.png in Resources */,
+				5B06971319B0B6480018009F /* propertylocations.plist in Resources */,
 				5B1CAD6919811F5400DD9E14 /* step2.png in Resources */,
 				5B1CAD6E19811F5400DD9E14 /* step7.png in Resources */,
 				5B1CAD6819811F5400DD9E14 /* step1.png in Resources */,
@@ -539,10 +551,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Michael Lynn (YZ36Z8GSEN)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Medallia Survey iOS/Medallia Survey iOS-Prefix.pch";
 				INFOPLIST_FILE = "Medallia Survey iOS/Medallia Survey iOS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "57542C11-BCC0-40D9-B87B-5791C87E0F2B";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -552,10 +566,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Michael Lynn (YZ36Z8GSEN)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Medallia Survey iOS/Medallia Survey iOS-Prefix.pch";
 				INFOPLIST_FILE = "Medallia Survey iOS/Medallia Survey iOS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3429DA58-004A-484B-B6FA-0EB6E69CE1E6";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

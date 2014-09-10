@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>City</key>
+		<string>Sea Isle City</string>
+		<key>Latitude</key>
+		<string>39.13672</string>
+		<key>Longitude</key>
+		<string>-74.705671</string>
+		<key>State</key>
+		<string>NJ</string>
+		<key>Store Name</key>
+		<string>Lynn Store 001</string>
+		<key>Street</key>
+		<string>7000 Landis Avenue</string>
+		<key>Zip</key>
+		<string>8423</string>
+	</dict>
+	<dict>
+		<key>City</key>
+		<string>Philadelphia</string>
+		<key>Latitude</key>
+		<string>39.946036</string>
+		<key>Longitude</key>
+		<string>-75.211029</string>
+		<key>State</key>
+		<string>PA</string>
+		<key>Store Name</key>
+		<string>Lynn Store 002</string>
+		<key>Street</key>
+		<string>4600 Kingsessing Avenue</string>
+		<key>Zip</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>City</key>
+		<string>New York</string>
+		<key>Latitude</key>
+		<string>40.754496</string>
+		<key>Longitude</key>
+		<string>-73.975857</string>
+		<key>State</key>
+		<string>NY</string>
+		<key>Store Name</key>
+		<string>Lynn Store 003</string>
+		<key>Street</key>
+		<string>230 Park Avenue</string>
+		<key>Zip</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>City</key>
+		<string>Palo Alto</string>
+		<key>Latitude</key>
+		<string>37.425601</string>
+		<key>Longitude</key>
+		<string>-122.139215</string>
+		<key>State</key>
+		<string>CA</string>
+		<key>Store Name</key>
+		<string>Lynn Store 004</string>
+		<key>Street</key>
+		<string>395 Page Mill Road</string>
+		<key>Zip</key>
+		<string>94306</string>
+	</dict>
+</array>
+</plist>

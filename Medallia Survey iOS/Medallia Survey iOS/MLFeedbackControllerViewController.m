@@ -30,10 +30,15 @@
     // change the following url to your Medallia Feedless Survey URL
     NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
     NSString *surveyURL = [defaults stringForKey:@"surveyURL"];
+    NSString *coordinates = [defaults stringForKey:@"coordinates"];
+
     if (!surveyURL) {
         surveyURL = @"http://survey.medallia.com/mobile-demo";
         [defaults setObject:surveyURL forKey:@"surveyURL"];
         [defaults synchronize];
+    }
+    if (coordinates) {
+        surveyURL = [NSString stringWithFormat:@"%@?coordinates=%@",surveyURL,coordinates];
     }
  
     NSURL *url = [NSURL URLWithString:surveyURL];
